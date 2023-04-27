@@ -49,7 +49,7 @@
             this.btnRegresar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRegresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegresar.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnRegresar.Location = new System.Drawing.Point(463, 392);
+            this.btnRegresar.Location = new System.Drawing.Point(213, 279);
             this.btnRegresar.Name = "btnRegresar";
             this.btnRegresar.Size = new System.Drawing.Size(119, 46);
             this.btnRegresar.TabIndex = 25;
@@ -63,11 +63,11 @@
             this.btnKiloALibras2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnKiloALibras2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKiloALibras2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnKiloALibras2.Location = new System.Drawing.Point(217, 353);
+            this.btnKiloALibras2.Location = new System.Drawing.Point(463, 214);
             this.btnKiloALibras2.Name = "btnKiloALibras2";
-            this.btnKiloALibras2.Size = new System.Drawing.Size(119, 46);
+            this.btnKiloALibras2.Size = new System.Drawing.Size(99, 46);
             this.btnKiloALibras2.TabIndex = 24;
-            this.btnKiloALibras2.Text = "LIBRAS A KILOGRAMOS";
+            this.btnKiloALibras2.Text = "CONVERTIR";
             this.btnKiloALibras2.UseVisualStyleBackColor = false;
             this.btnKiloALibras2.Click += new System.EventHandler(this.btnKiloALibras_Click);
             // 
@@ -77,38 +77,38 @@
             this.btnLibrasAKilo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLibrasAKilo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLibrasAKilo.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btnLibrasAKilo.Location = new System.Drawing.Point(217, 195);
+            this.btnLibrasAKilo.Location = new System.Drawing.Point(463, 135);
             this.btnLibrasAKilo.Name = "btnLibrasAKilo";
-            this.btnLibrasAKilo.Size = new System.Drawing.Size(119, 46);
+            this.btnLibrasAKilo.Size = new System.Drawing.Size(99, 46);
             this.btnLibrasAKilo.TabIndex = 23;
-            this.btnLibrasAKilo.Text = "LIBRAS A KILOGRAMOS";
+            this.btnLibrasAKilo.Text = "CONVERTIR";
             this.btnLibrasAKilo.UseVisualStyleBackColor = false;
             this.btnLibrasAKilo.Click += new System.EventHandler(this.btnLibrasAKilo_Click);
             // 
             // txtLibras2
             // 
-            this.txtLibras2.Location = new System.Drawing.Point(437, 302);
+            this.txtLibras2.Location = new System.Drawing.Point(356, 229);
             this.txtLibras2.Name = "txtLibras2";
             this.txtLibras2.Size = new System.Drawing.Size(100, 20);
             this.txtLibras2.TabIndex = 22;
             // 
             // txtKilogramos2
             // 
-            this.txtKilogramos2.Location = new System.Drawing.Point(154, 302);
+            this.txtKilogramos2.Location = new System.Drawing.Point(140, 228);
             this.txtKilogramos2.Name = "txtKilogramos2";
             this.txtKilogramos2.Size = new System.Drawing.Size(100, 20);
             this.txtKilogramos2.TabIndex = 21;
             // 
             // txtKilogramos
             // 
-            this.txtKilogramos.Location = new System.Drawing.Point(437, 161);
+            this.txtKilogramos.Location = new System.Drawing.Point(356, 150);
             this.txtKilogramos.Name = "txtKilogramos";
             this.txtKilogramos.Size = new System.Drawing.Size(100, 20);
             this.txtKilogramos.TabIndex = 20;
             // 
             // txtLibras
             // 
-            this.txtLibras.Location = new System.Drawing.Point(154, 159);
+            this.txtLibras.Location = new System.Drawing.Point(89, 149);
             this.txtLibras.Name = "txtLibras";
             this.txtLibras.Size = new System.Drawing.Size(100, 20);
             this.txtLibras.TabIndex = 19;
@@ -117,7 +117,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(324, 302);
+            this.label12.Location = new System.Drawing.Point(260, 225);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(90, 23);
             this.label12.TabIndex = 18;
@@ -127,7 +127,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(25, 302);
+            this.label11.Location = new System.Drawing.Point(12, 224);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(122, 23);
             this.label11.TabIndex = 17;
@@ -137,7 +137,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(290, 157);
+            this.label10.Location = new System.Drawing.Point(209, 145);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(141, 23);
             this.label10.TabIndex = 16;
@@ -147,7 +147,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(76, 157);
+            this.label9.Location = new System.Drawing.Point(12, 147);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(71, 23);
             this.label9.TabIndex = 15;
@@ -177,7 +177,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(594, 450);
+            this.ClientSize = new System.Drawing.Size(583, 350);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.btnKiloALibras2);
             this.Controls.Add(this.btnLibrasAKilo);

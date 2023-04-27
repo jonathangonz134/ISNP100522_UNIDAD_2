@@ -84,6 +84,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CALCULADORA.resx">
+      <DependentUpon>CALCULADORA.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LIBRAS_A_KILOGRAMOS.resx">
       <DependentUpon>LIBRAS_A_KILOGRAMOS.cs</DependentUpon>
     </EmbeddedResource>
