@@ -28,7 +28,7 @@ namespace ISNP100522_UNIDAD_2
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            METROS_A_YARDAS METROS_A_YARDAS = new METROS_A_YARDAS();
+            Ejercicio_2 METROS_A_YARDAS = new Ejercicio_2();
             METROS_A_YARDAS.Show();
 
             this.Hide();
@@ -36,7 +36,7 @@ namespace ISNP100522_UNIDAD_2
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            CALCULADORA CALCULADORA = new CALCULADORA();
+            Ejercicio_3 CALCULADORA = new Ejercicio_3();
             CALCULADORA.Show();
 
             this.Hide();
@@ -44,7 +44,7 @@ namespace ISNP100522_UNIDAD_2
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            POS POS = new POS();
+            Ejercicio_4 POS = new Ejercicio_4();
             POS.Show();
 
             this.Hide();
@@ -52,10 +52,31 @@ namespace ISNP100522_UNIDAD_2
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            CALIFICACIONES CALIFICACIONES = new CALIFICACIONES();
+            Ejercicio_5 CALIFICACIONES = new Ejercicio_5();
             CALIFICACIONES.Show();
 
             this.Hide();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            Ejercicio_6 EJERCICIO_6 = new Ejercicio_6();
+            EJERCICIO_6.Show();
+
+            this.Hide();
+        }
+
+        private void btnSiguienteMenu_Click(object sender, EventArgs e)
+        {
+            MENU_2 menu_2 = new MENU_2();
+            menu_2.Show();
+
+            this.Hide();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

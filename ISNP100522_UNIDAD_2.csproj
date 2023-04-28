@@ -46,23 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CALCULADORA.cs">
+    <Compile Include="Ejercicio_3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CALCULADORA.Designer.cs">
-      <DependentUpon>CALCULADORA.cs</DependentUpon>
+    <Compile Include="Ejercicio_3.Designer.cs">
+      <DependentUpon>Ejercicio_3.cs</DependentUpon>
     </Compile>
-    <Compile Include="CALIFICACIONES.cs">
+    <Compile Include="Ejercicio_5.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CALIFICACIONES.Designer.cs">
-      <DependentUpon>CALIFICACIONES.cs</DependentUpon>
+    <Compile Include="Ejercicio_5.Designer.cs">
+      <DependentUpon>Ejercicio_5.cs</DependentUpon>
     </Compile>
-    <Compile Include="LIBRAS_A_KILOGRAMOS.cs">
+    <Compile Include="Ejercicio_1..cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LIBRAS_A_KILOGRAMOS.Designer.cs">
-      <DependentUpon>LIBRAS_A_KILOGRAMOS.cs</DependentUpon>
+    <Compile Include="Ejercicio_1..Designer.cs">
+      <DependentUpon>Ejercicio_1..cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio_6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio_6.Designer.cs">
+      <DependentUpon>Ejercicio_6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio_7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio_7.Designer.cs">
+      <DependentUpon>Ejercicio_7.cs</DependentUpon>
     </Compile>
     <Compile Include="MENU.cs">
       <SubType>Form</SubType>
@@ -70,31 +82,52 @@
     <Compile Include="MENU.Designer.cs">
       <DependentUpon>MENU.cs</DependentUpon>
     </Compile>
-    <Compile Include="METROS_A_YARDAS.cs">
+    <Compile Include="Ejercicio_2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="METROS_A_YARDAS.Designer.cs">
-      <DependentUpon>METROS_A_YARDAS.cs</DependentUpon>
+    <Compile Include="Ejercicio_2.Designer.cs">
+      <DependentUpon>Ejercicio_2.cs</DependentUpon>
     </Compile>
-    <Compile Include="POS.cs">
+    <Compile Include="Ejercicio_4.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="POS.Designer.cs">
-      <DependentUpon>POS.cs</DependentUpon>
+    <Compile Include="Ejercicio_4.Designer.cs">
+      <DependentUpon>Ejercicio_4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_2.Designer.cs">
+      <DependentUpon>MENU_2.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CALCULADORA.resx">
-      <DependentUpon>CALCULADORA.cs</DependentUpon>
+    <EmbeddedResource Include="Ejercicio_3.resx">
+      <DependentUpon>Ejercicio_3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LIBRAS_A_KILOGRAMOS.resx">
-      <DependentUpon>LIBRAS_A_KILOGRAMOS.cs</DependentUpon>
+    <EmbeddedResource Include="Ejercicio_1..resx">
+      <DependentUpon>Ejercicio_1..cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio_5.resx">
+      <DependentUpon>Ejercicio_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio_6.resx">
+      <DependentUpon>Ejercicio_6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio_7.resx">
+      <DependentUpon>Ejercicio_7.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MENU.resx">
       <DependentUpon>MENU.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="METROS_A_YARDAS.resx">
-      <DependentUpon>METROS_A_YARDAS.cs</DependentUpon>
+    <EmbeddedResource Include="Ejercicio_2.resx">
+      <DependentUpon>Ejercicio_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio_4.resx">
+      <DependentUpon>Ejercicio_4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_2.resx">
+      <DependentUpon>MENU_2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -133,6 +166,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\POS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-ugb-horizontal.aa48e444.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\romanos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\numeros-naturales.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

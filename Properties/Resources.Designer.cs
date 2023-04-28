@@ -83,6 +83,16 @@ namespace ISNP100522_UNIDAD_2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap logo_ugb_horizontal_aa48e444 {
+            get {
+                object obj = ResourceManager.GetObject("logo-ugb-horizontal.aa48e444", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap METROS {
             get {
                 object obj = ResourceManager.GetObject("METROS", resourceCulture);
@@ -103,9 +113,29 @@ namespace ISNP100522_UNIDAD_2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap numeros_naturales {
+            get {
+                object obj = ResourceManager.GetObject("numeros-naturales", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap POS {
             get {
                 object obj = ResourceManager.GetObject("POS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap romanos {
+            get {
+                object obj = ResourceManager.GetObject("romanos", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

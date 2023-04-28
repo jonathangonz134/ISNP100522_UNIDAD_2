@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ISNP100522_UNIDAD_2
 {
-    public partial class CALCULADORA : Form
+    public partial class Ejercicio_3 : Form
     {
-        public CALCULADORA()
+        public Ejercicio_3()
         {
             InitializeComponent();
         }
@@ -291,6 +291,14 @@ namespace ISNP100522_UNIDAD_2
                     break;
 
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MENU menu = new MENU();
+            menu.Show();
+
+            this.Hide();
         }
     }        
 }

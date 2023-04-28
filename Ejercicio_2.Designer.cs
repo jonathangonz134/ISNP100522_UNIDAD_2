@@ -1,6 +1,6 @@
 ﻿namespace ISNP100522_UNIDAD_2
 {
-    partial class METROS_A_YARDAS
+    partial class Ejercicio_2
     {
         /// <summary>
         /// Required designer variable.

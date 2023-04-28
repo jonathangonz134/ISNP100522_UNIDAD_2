@@ -10,11 +10,19 @@ using System.Windows.Forms;
 
 namespace ISNP100522_UNIDAD_2
 {
-    public partial class CALIFICACIONES : Form
+    public partial class MENU_2 : Form
     {
-        public CALIFICACIONES()
+        public MENU_2()
         {
             InitializeComponent();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            Ejercicio_7 ejercicio_7 = new Ejercicio_7();
+            ejercicio_7.Show();
+
+            this.Hide();
         }
     }
 }

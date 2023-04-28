@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ISNP100522_UNIDAD_2
 {
-    public partial class METROS_A_YARDAS : Form
+    public partial class Ejercicio_2 : Form
     {
-        public METROS_A_YARDAS()
+        public Ejercicio_2()
         {
             InitializeComponent();
         }
