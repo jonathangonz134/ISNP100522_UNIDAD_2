@@ -76,6 +76,12 @@
     <Compile Include="Ejercicio_7.Designer.cs">
       <DependentUpon>Ejercicio_7.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ejercicio_8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio_8.Designer.cs">
+      <DependentUpon>Ejercicio_8.cs</DependentUpon>
+    </Compile>
     <Compile Include="MENU.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +122,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicio_7.resx">
       <DependentUpon>Ejercicio_7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio_8.resx">
+      <DependentUpon>Ejercicio_8.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MENU.resx">
       <DependentUpon>MENU.cs</DependentUpon>
@@ -175,6 +184,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\numeros-naturales.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tablas.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

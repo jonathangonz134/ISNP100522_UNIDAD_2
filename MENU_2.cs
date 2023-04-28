@@ -24,5 +24,13 @@ namespace ISNP100522_UNIDAD_2
 
             this.Hide();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Ejercicio_8 ejercicio_8 = new Ejercicio_8();
+            ejercicio_8.Show();
+
+            this.Hide();
+        }
     }
 }
