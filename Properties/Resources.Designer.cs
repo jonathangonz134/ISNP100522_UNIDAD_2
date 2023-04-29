@@ -113,6 +113,16 @@ namespace ISNP100522_UNIDAD_2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap numero_mayor {
+            get {
+                object obj = ResourceManager.GetObject("numero mayor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap numeros_naturales {
             get {
                 object obj = ResourceManager.GetObject("numeros-naturales", resourceCulture);
