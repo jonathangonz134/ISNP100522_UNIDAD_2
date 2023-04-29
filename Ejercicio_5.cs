@@ -42,7 +42,7 @@ namespace ISNP100522_UNIDAD_2
                 return;
             }
 
-            notaFinal = (nota1 + nota2 + nota3) * 0.25 + nota4 * 0.5;
+            notaFinal = (nota1 + nota2 + nota3 + nota4) / 4;
 
             MessageBox.Show("La nota final es: " + notaFinal.ToString());
 

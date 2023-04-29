@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ejercicio_2));
             this.btnRegresar = new System.Windows.Forms.Button();
             this.btnYardasAMetros = new System.Windows.Forms.Button();
             this.btnMetrosAYardas = new System.Windows.Forms.Button();
@@ -279,7 +280,7 @@
             this.btnMilimetrosACentimetros.UseVisualStyleBackColor = false;
             this.btnMilimetrosACentimetros.Click += new System.EventHandler(this.btnMilimetrosACentimetros_Click);
             // 
-            // METROS_A_YARDAS
+            // Ejercicio_2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -307,7 +308,8 @@
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label6);
-            this.Name = "METROS_A_YARDAS";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Ejercicio_2";
             this.Text = "METROS_A_YARDAS";
             this.ResumeLayout(false);
             this.PerformLayout();

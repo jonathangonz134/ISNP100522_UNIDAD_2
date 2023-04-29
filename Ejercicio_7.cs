@@ -32,9 +32,8 @@ namespace ISNP100522_UNIDAD_2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MENU menu = new MENU();
-            menu.Show();
-
+            MENU_2 menu_2 = new MENU_2();
+            menu_2.Show();
             this.Hide();
         }
     }

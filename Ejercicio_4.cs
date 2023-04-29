@@ -29,12 +29,12 @@ namespace ISNP100522_UNIDAD_2
             if (totalSinDescuento <= 2000)
             {
                 totalConDescuento = totalSinDescuento * 0.15;
-                MessageBox.Show("Gracias a su compra se le esta haciendo un descuento del 15%, El total a pagar es: " + totalConDescuento.ToString());
+                MessageBox.Show("Gracias a su compra se le esta haciendo un descuento del 15%, El total a pagar es: " + totalConDescuento.ToString("C"));
             }
             else
             {
                 totalConDescuento = totalSinDescuento * 0.35;
-                MessageBox.Show("Gracias a su compra se le esta haciendo un descuento del 35%,El total a pagar es: " + totalConDescuento.ToString());
+                MessageBox.Show("Gracias a su compra se le esta haciendo un descuento del 35%,El total a pagar es: " + totalConDescuento.ToString("C"));
             }
 
             txtCantidad.Text = string.Empty;
