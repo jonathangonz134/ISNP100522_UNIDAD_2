@@ -40,5 +40,21 @@ namespace ISNP100522_UNIDAD_2
 
             this.Hide();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Ejercicio_10 ejercicio_10 = new Ejercicio_10();
+            ejercicio_10.Show();
+
+            this.Hide();
+        }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            MENU MENU = new MENU();
+            MENU.Show();
+
+            this.Hide();
+        }
     }
 }

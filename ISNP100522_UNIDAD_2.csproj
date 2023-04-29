@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ejercicio_10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio_10.Designer.cs">
+      <DependentUpon>Ejercicio_10.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ejercicio_3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +120,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ejercicio_10.resx">
+      <DependentUpon>Ejercicio_10.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ejercicio_3.resx">
       <DependentUpon>Ejercicio_3.cs</DependentUpon>
     </EmbeddedResource>
@@ -199,6 +208,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\numero mayor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inicio.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

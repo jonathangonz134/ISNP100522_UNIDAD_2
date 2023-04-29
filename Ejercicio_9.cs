@@ -49,6 +49,17 @@ namespace ISNP100522_UNIDAD_2
             {
                 MessageBox.Show("El numero Mayor es:" + num2);
             }
+
+            txtPrimerNumero.Text = string.Empty;
+            txtSegundoNumero.Text = string.Empty;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MENU_2 MENU_2  = new MENU_2();
+            MENU_2.Show();
+
+            this.Hide();
         }
     }
 }
